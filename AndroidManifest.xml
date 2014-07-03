@@ -8,7 +8,11 @@
         android:minSdkVersion="14"
         android:targetSdkVersion="19" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
+        android:name="com.asmusj.onemessage.onemessageapplication"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
@@ -33,6 +37,14 @@
             android:label="@string/title_activity_sign_up"
             android:parentActivityName="com.asmusj.onemessage.LoginActivity"
             android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.asmusj.onemessage.EditFriendsActivity"
+            android:label="@string/title_activity_edit_friends"
+            android:parentActivityName="com.asmusj.onemessage.MainActivity" android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="MainActivity" />
         </activity>
     </application>
 

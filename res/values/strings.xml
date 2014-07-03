@@ -2,9 +2,8 @@
 <resources>
 
     <string name="app_name">OneMessage</string>
-    <string name="title_section1">Section 1</string>
-    <string name="title_section2">Section 2</string>
-    <string name="title_section3">Section 3</string>
+    <string name="title_section1">Inbox</string>
+    <string name="title_section2">Friends</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_login">LoginActivity</string>
     <string name="hello_world">Hello world!</string>
@@ -15,5 +14,15 @@
     <string name="title_activity_sign_up">SignUpActivity</string>
     <string name="email_hint">Enter Email</string>
     <string name="sign_up_button_label">Sign Up!</string>
+    <string name="signup_error_message">Please make sure you entere a username, password, and email address</string>
+    <string name="signup_error_title">Ooops!</string>
+    <string name="login_error_message">Please make sure you entere a username and password</string>
+    <string name="login_error_title">Ooops!</string>
+    <string name="menu_logout_label">Logout</string>
+    <string name="empty_inbox_label">No New Messages</string>
+    <string name="empty_friends_label">Add Friends To Begin</string>
+    <string name="edit_friends_label">Edit Friends</string>
+    <string name="title_activity_edit_friends">Edit Friends</string>
+    <string name="error_title">We\'re Sorry!</string>
 
 </resources>
